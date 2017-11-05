@@ -54,8 +54,6 @@ class MainViewController: UIViewController {
                                        object: nil)
         
         // Style view.
-        view.layer.cornerRadius = 3.0
-        view.clipsToBounds = true
         inputCurrency.titleLabel?.adjustsFontSizeToFitWidth = true
         outputCurrency.titleLabel?.adjustsFontSizeToFitWidth = true
         inputIndicator.layer.cornerRadius = 2.0
